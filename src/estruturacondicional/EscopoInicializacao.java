@@ -15,7 +15,7 @@ public class EscopoInicializacao {
 		/*
 		 * A variável desconto será inicializada com
 		 * valor do produto multiplicado por 0.1 ou 
-		 * 0.05, evitando erro de compilação.
+		 * receberá 0, evitando erro de compilação.
 		 */
 		if (preco < 250.00) {
 			desconto = preco * 0.1;
